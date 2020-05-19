@@ -1,3 +1,17 @@
+## [2.10.3](https://github.com/Thorium-Sim/thorium/compare/2.10.2...2.10.3) (2020-05-16)
+
+
+### Bug Fixes
+
+* **Sound Player:** An errant reset function was being called to often, causing sounds to be chopped off. This fixes that problem. ([c03ea39](https://github.com/Thorium-Sim/thorium/commit/c03ea39e188789797a76350b124f87a143594f7c))
+
+## [2.10.2](https://github.com/Thorium-Sim/thorium/compare/2.10.1...2.10.2) (2020-05-15)
+
+
+### Bug Fixes
+
+* **Space EdVentures:** Fixes a regression causing Space EdVentures connection to be broken. ([c847d71](https://github.com/Thorium-Sim/thorium/commit/c847d71a78bdab3900e61b7a7f7f085e80318215))
+
 ## [2.10.1](https://github.com/Thorium-Sim/thorium/compare/2.10.0...2.10.1) (2020-05-12)
 
 
