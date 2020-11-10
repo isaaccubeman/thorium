@@ -24,7 +24,7 @@
     <div class="main">
       <div class="server">
         <h2>Server</h2>
-        <button onclick="startServer()">Start Server</button>
+        <button onclick="splashFunctions.startServer()">Start Server</button>
         <label>
           <input type="checkbox" id="remember-server" /> Start Server on
           Open</label
@@ -55,7 +55,11 @@
             xmlns:xlink="http://www.w3.org/1999/xlink"
             viewBox="0 0 100 100"
             preserveAspectRatio="xMidYMid"
-            style="background-image: none; background-position: initial initial; background-repeat: initial initial;"
+            style="
+              background-image: none;
+              background-position: initial initial;
+              background-repeat: initial initial;
+            "
           >
             <g transform="rotate(0 50 50)">
               <rect
@@ -326,12 +330,14 @@
             >Enter Server Address:
             <input type="text" id="server-address" placeholder="12.42.51.162" />
           </label>
-          <button onclick="serverAddress()">Connect to Server</button>
+          <button onclick="splashFunctions.serverAddress()">
+            Connect to Server
+          </button>
         </p>
       </div>
     </div>
     <script>
-      setInterval(window.getServers, 1000);
+      setInterval(window.splashFunctions.getServers, 1000);
     </script>
   </body>
 </html>
